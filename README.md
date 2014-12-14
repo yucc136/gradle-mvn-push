@@ -28,9 +28,8 @@ signing.secretKeyRingFile=~/.gnupg/secring.gpg
 You may already have this file, in which case just edit the original. This file should contain the POM values which are common to all of your sub-project (if you have any). For instance, here's [ActionBar-PullToRefresh's](https://github.com/chrisbanes/ActionBar-PullToRefresh):
 
 ```properties
-VERSION_NAME=0.9.2-SNAPSHOT
-VERSION_CODE=92
-GROUP=com.github.chrisbanes.actionbarpulltorefresh
+POM_VERSION=0.9.2-SNAPSHOT
+POM_GROUP_ID=com.github.chrisbanes.actionbarpulltorefresh
 
 POM_DESCRIPTION=A modern implementation of the pull-to-refresh for Android
 POM_URL=https://github.com/chrisbanes/ActionBar-PullToRefresh
